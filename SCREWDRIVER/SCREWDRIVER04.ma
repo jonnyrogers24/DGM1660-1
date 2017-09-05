@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: SCREWDRIVER04.ma
-//Last modified: Mon, Sep 04, 2017 10:36:16 PM
+//Last modified: Mon, Sep 04, 2017 10:41:39 PM
 //Codeset: 1252
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "287ED068-4366-0DC5-78A6-EB953F9C2F9A";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 101.99908029969198 6.4104553686363079 16.922159883571734 ;
-	setAttr ".r" -type "double3" -2.7383527159216179 -3519.3999999996427 0 ;
+	setAttr ".t" -type "double3" 13.133091930694581 32.182127542342847 74.828893012884024 ;
+	setAttr ".r" -type "double3" -21.938352715876952 -3588.999999999618 4.0501051915363064e-016 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "0B300BA2-4DC5-0330-AC24-09B2335A332F";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 104.97881282240914;
+	setAttr ".coi" 82.404496940961309;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
